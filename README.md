@@ -1,7 +1,7 @@
 # REST countries show
 
 The live demo of the site is here: 
-(LIVE SITE)[https://kaleidoscopic-blancmange-f4cf8d.netlify.app/]
+[LIVE SITE](https://kaleidoscopic-blancmange-f4cf8d.netlify.app/)
 
 
 
