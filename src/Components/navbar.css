@@ -1,0 +1,28 @@
+nav{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    box-shadow: 0 1px 5px rgb(236, 236, 236);
+}
+.light nav{
+    background-color: hsl(0, 0%, 100%);
+}
+.dark nav{
+    background-color: hsl(209, 23%, 22%);
+    box-shadow: none;
+}
+.mode-controller{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+@media(max-width: 630px) {
+    nav {
+            padding: 1rem 1.5rem;
+        }
+}
